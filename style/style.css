@@ -1,0 +1,37 @@
+/* font style here with google */
+@import url('https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap');
+body{
+ font-family: "Oranienbaum", serif;
+
+}
+/* heading part style start here */
+.heading-part{
+    width: 1600px;
+    height:850px ;
+    border: 2px solid red;
+    margin: 0 auto;
+}
+.heading-text h1{
+   font-weight: 800;
+   font-size: 80px;
+   color: rgb(39, 39, 39);
+   line-height: 80px;
+}
+.heading-text p{
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.6);
+   
+ }
+ .heading-text button{
+    width: 179px;
+    height:64px ;
+    background-color: rgb(229, 84, 115)
+    color: rgb(255, 255, 255)
+ }
+
+
+.heading-img img{
+    width: 635px;
+    height: 800px;
+}
