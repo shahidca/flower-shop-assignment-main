@@ -4,13 +4,27 @@ body{
  font-family: "Oranienbaum", serif;
 
 }
+/* some common class here */
+.mx-width{
+    width: 1600px;
+}
+
+
+
+
+
 /* heading part style start here */
 .heading-part{
-    width: 1600px;
-    height:850px ;
-    border: 2px solid red;
+    height:750px ;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(229, 84, 115, 0.1);
 }
+.heading-text {
+  margin-right: 60px;
+ }
 .heading-text h1{
    font-weight: 800;
    font-size: 80px;
@@ -27,11 +41,88 @@ body{
     width: 179px;
     height:64px ;
     background-color: rgb(229, 84, 115)
-    color: rgb(255, 255, 255)
+    /* color: rgb(255, 255, 255) */
+    
  }
 
 
 .heading-img img{
-    width: 635px;
-    height: 800px;
+    width: 600px;
+    height: 700px;
+}
+.heading-img{
+    margin-left: 60px;
+}
+/* main-section-first-part style start here */
+.main-section-first-part{
+    height:750px ;
+    margin: 0 auto;
+    margin-top: 100px;
+  
+}
+.tex-content {
+    text-align: center;
+}
+.tex-content h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(39, 39, 39);
+}
+.tex-content p{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(39, 39, 39, 0.6);
+}
+.img-gellary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.flower{
+    width:464px ;
+    height: 535px;
+}
+.flower img{
+    width:250px ;
+    height: 300px;
+}
+.first-pic{
+    background-color: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    padding: 38px 24px 31px 24px;
+}
+.second-pic{
+    background-color: rgba(5, 151, 160, 0.15);
+  border-radius: 300px 300px 0px 0px;
+  padding: 38px 24px 31px 24px;
+}
+.third-pic{
+    background-color: rgba(71, 125, 17, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    padding: 38px 24px 31px 24px;
+}
+.photo-caption{
+    font-size: 22px;
+    font-weight: 550;
+    text-decoration: underline;
+}
+/* main-section-second-part style start here */
+.main-section-second-part{
+height: 320px;
+margin: 0 auto;
+background-color: rgba(39, 39, 39, 0.05);
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+.text-img{
+    text-align: center;
+}
+.text-style{
+    font-size: 22px;
+    font-weight: 550;
+    color: rgba(39, 39, 39, 0.8);
 }
